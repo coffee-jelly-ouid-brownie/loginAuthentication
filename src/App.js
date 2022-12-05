@@ -1,9 +1,10 @@
+import React from 'react';
 import './App.css';
-import Login from './components/LoginLocalStorage/Login'
+import Checks from "../src/components/LoginLocalStorage/check"
 
 function App() {
   return (
-    <Login />
+    <Checks />
   );
 }
 
